@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-use nicoSWD\Rule\Grammar\JavaScript\JavaScript;
-use nicoSWD\Rule\Tokenizer\Tokenizer;
-use nicoSWD\Rule\TokenStream\Token\TokenFactory;
+use openWebX\Rule\Grammar\JavaScript\JavaScript;
+use openWebX\Rule\Tokenizer\Tokenizer;
+use openWebX\Rule\TokenStream\Token\TokenFactory;
 use PHPUnit\Framework\TestCase;
 
 class TokenizerTest extends TestCase

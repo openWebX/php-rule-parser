@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\methods;
+namespace openWebX\Rule\tests\methods;
 
-use nicoSWD\Rule\Rule;
-use nicoSWD\Rule\tests\integration\AbstractTestBase;
+use openWebX\Rule\Rule;
+use openWebX\Rule\tests\integration\AbstractTestBase;
 
 class ToUpperCaseTest extends AbstractTestBase
 {

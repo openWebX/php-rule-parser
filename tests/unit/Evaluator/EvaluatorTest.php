@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\unit\Evaluator;
+namespace openWebX\Rule\tests\unit\Evaluator;
 
-use nicoSWD\Rule\Evaluator\Evaluator;
-use nicoSWD\Rule\Evaluator\Exception\UnknownSymbolException;
+use openWebX\Rule\Evaluator\Evaluator;
+use openWebX\Rule\Evaluator\Exception\UnknownSymbolException;
 use PHPUnit\Framework\TestCase;
 
 class EvaluatorTest extends TestCase

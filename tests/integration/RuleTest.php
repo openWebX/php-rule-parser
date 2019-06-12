@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
 
-use nicoSWD\Rule;
+use openWebX\Rule;
 
 class RuleTest extends \PHPUnit\Framework\TestCase
 {

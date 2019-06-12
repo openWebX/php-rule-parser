@@ -2,14 +2,14 @@
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\unit\TokenStream;
+namespace openWebX\Rule\tests\unit\TokenStream;
 
-use nicoSWD\Rule\Grammar\CallableUserFunctionInterface;
-use nicoSWD\Rule\TokenStream\Token\BaseToken;
-use nicoSWD\Rule\TokenStream\Token\TokenInteger;
+use openWebX\Rule\Grammar\CallableUserFunctionInterface;
+use openWebX\Rule\TokenStream\Token\BaseToken;
+use openWebX\Rule\TokenStream\Token\TokenInteger;
 
 class TestFunc implements CallableUserFunctionInterface
 {

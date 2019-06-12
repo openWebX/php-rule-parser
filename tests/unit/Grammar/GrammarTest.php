@@ -2,12 +2,12 @@
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\unit\Parser;
+namespace openWebX\Rule\tests\unit\Parser;
 
-use nicoSWD\Rule\Grammar\Grammar;
+use openWebX\Rule\Grammar\Grammar;
 use PHPUnit\Framework\TestCase;
 
 class GrammarTest extends TestCase

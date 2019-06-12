@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\functions;
+namespace openWebX\Rule\tests\functions;
 
-use nicoSWD\Rule\tests\integration\AbstractTestBase;
+use openWebX\Rule\tests\integration\AbstractTestBase;
 
 class ParseFloatTest extends AbstractTestBase
 {

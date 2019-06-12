@@ -2,22 +2,22 @@
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\unit\TokenStream;
+namespace openWebX\Rule\tests\unit\TokenStream;
 
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use Mockery\MockInterface;
-use nicoSWD\Rule\Grammar\CallableUserFunctionInterface;
-use nicoSWD\Rule\Grammar\Grammar;
-use nicoSWD\Rule\Tokenizer\TokenizerInterface;
-use nicoSWD\Rule\TokenStream\AST;
-use nicoSWD\Rule\TokenStream\Exception\UndefinedFunctionException;
-use nicoSWD\Rule\TokenStream\Node\BaseNode;
-use nicoSWD\Rule\TokenStream\Token\BaseToken;
-use nicoSWD\Rule\TokenStream\Token\TokenFactory;
-use nicoSWD\Rule\TokenStream\TokenStreamFactory;
+use openWebX\Rule\Grammar\CallableUserFunctionInterface;
+use openWebX\Rule\Grammar\Grammar;
+use openWebX\Rule\Tokenizer\TokenizerInterface;
+use openWebX\Rule\TokenStream\AST;
+use openWebX\Rule\TokenStream\Exception\UndefinedFunctionException;
+use openWebX\Rule\TokenStream\Node\BaseNode;
+use openWebX\Rule\TokenStream\Token\BaseToken;
+use openWebX\Rule\TokenStream\Token\TokenFactory;
+use openWebX\Rule\TokenStream\TokenStreamFactory;
 use PHPUnit\Framework\TestCase;
 
 class ASTTest extends TestCase

@@ -2,15 +2,15 @@
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\unit\TokenStream;
+namespace openWebX\Rule\tests\unit\TokenStream;
 
 use Mockery\MockInterface;
-use nicoSWD\Rule\TokenStream\Token\BaseToken;
-use nicoSWD\Rule\TokenStream\Token\TokenType;
-use nicoSWD\Rule\TokenStream\TokenStream;
+use openWebX\Rule\TokenStream\Token\BaseToken;
+use openWebX\Rule\TokenStream\Token\TokenType;
+use openWebX\Rule\TokenStream\TokenStream;
 use PHPUnit\Framework\TestCase;
 
 class BaseTokenTest extends TestCase

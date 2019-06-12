@@ -1,5 +1,5 @@
 {
-  "name": "nicoswd/php-rule-parser",
+  "name": "openwebx/php-rule-parser",
   "type": "library",
   "description": "PHP 7 Rule Engine - Rule Parser & Evaluator",
   "keywords": [
@@ -13,23 +13,28 @@
     "workflow",
     "dsl"
   ],
-  "homepage": "https://github.com/nicoSWD/php-rule-parser",
+  "homepage": "https://github.com/openWebX/php-rule-parser",
   "license": "MIT",
   "authors": [
     {
       "name": "Nicolas Oelgart",
       "role": "Developer",
       "homepage": "https://nicoswd.com"
+    },
+    {
+      "name": "Jens Reinemuth",
+      "role": "Developer",
+      "homepage": "https://reinemuth.rocks"
     }
   ],
   "autoload": {
     "psr-4": {
-      "nicoSWD\\Rule\\": "src/nicoSWD/Rule"
+      "openWebX\\Rule\\": "src/openWebX/Rule"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "nicoSWD\\Rule\\tests\\": "tests"
+      "openWebX\\Rule\\tests\\": "tests"
     }
   },
   "require": {

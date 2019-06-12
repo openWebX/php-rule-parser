@@ -4,26 +4,26 @@ declare(strict_types=1);
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\unit\TokenStream;
+namespace openWebX\Rule\tests\unit\TokenStream;
 
 use ArrayIterator;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
 use Mockery\MockInterface;
-use nicoSWD\Rule\Grammar\CallableFunction;
-use nicoSWD\Rule\Parser\Exception\ParserException;
-use nicoSWD\Rule\TokenStream\AST;
-use nicoSWD\Rule\TokenStream\Exception\UndefinedFunctionException;
-use nicoSWD\Rule\TokenStream\Exception\UndefinedMethodException;
-use nicoSWD\Rule\TokenStream\Exception\UndefinedVariableException;
-use nicoSWD\Rule\TokenStream\Token\BaseToken;
-use nicoSWD\Rule\TokenStream\Token\TokenFunction;
-use nicoSWD\Rule\TokenStream\Token\TokenMethod;
-use nicoSWD\Rule\TokenStream\Token\TokenString;
-use nicoSWD\Rule\TokenStream\Token\TokenVariable;
-use nicoSWD\Rule\TokenStream\TokenStream;
+use openWebX\Rule\Grammar\CallableFunction;
+use openWebX\Rule\Parser\Exception\ParserException;
+use openWebX\Rule\TokenStream\AST;
+use openWebX\Rule\TokenStream\Exception\UndefinedFunctionException;
+use openWebX\Rule\TokenStream\Exception\UndefinedMethodException;
+use openWebX\Rule\TokenStream\Exception\UndefinedVariableException;
+use openWebX\Rule\TokenStream\Token\BaseToken;
+use openWebX\Rule\TokenStream\Token\TokenFunction;
+use openWebX\Rule\TokenStream\Token\TokenMethod;
+use openWebX\Rule\TokenStream\Token\TokenString;
+use openWebX\Rule\TokenStream\Token\TokenVariable;
+use openWebX\Rule\TokenStream\TokenStream;
 use PHPUnit\Framework\TestCase;
 
 class TokenStreamTest extends TestCase

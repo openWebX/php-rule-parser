@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\unit\Expression;
+namespace openWebX\Rule\tests\unit\Expression;
 
-use nicoSWD\Rule\Expression;
-use nicoSWD\Rule\Expression\ExpressionFactory;
-use nicoSWD\Rule\TokenStream\Token;
+use openWebX\Rule\Expression;
+use openWebX\Rule\Expression\ExpressionFactory;
+use openWebX\Rule\TokenStream\Token;
 use PHPUnit\Framework\TestCase;
 
 class ExpressionFactoryTest extends TestCase

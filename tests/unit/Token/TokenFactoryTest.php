@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\unit\Token;
+namespace openWebX\Rule\tests\unit\Token;
 
 use InvalidArgumentException;
-use nicoSWD\Rule\Parser\Exception\ParserException;
-use nicoSWD\Rule\TokenStream\Token;
-use nicoSWD\Rule\TokenStream\Token\TokenEqualStrict;
+use openWebX\Rule\Parser\Exception\ParserException;
+use openWebX\Rule\TokenStream\Token;
+use openWebX\Rule\TokenStream\Token\TokenEqualStrict;
 use PHPUnit\Framework\TestCase;
 
 class TokenFactoryTest extends TestCase

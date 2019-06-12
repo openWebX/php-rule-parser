@@ -6,14 +6,14 @@
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/nicoswd/php-rule-parser.svg)](https://packagist.org/packages/nicoswd/php-rule-parser) [![Total Downloads](https://img.shields.io/packagist/dt/nicoswd/php-rule-parser.svg)](https://packagist.org/packages/nicoswd/php-rule-parser)
 
-If you're using PHP 5, you might want to look at [version 0.4.0](https://github.com/nicoSWD/php-rule-parser/tree/0.4.0).
+If you're using PHP 5, you might want to look at [version 0.4.0](https://github.com/openWebX/php-rule-parser/tree/0.4.0).
 
 You're looking at a standalone PHP library to parse and evaluate text based rules with a Javascript-like syntax. This project was born out of the necessity to evaluate hundreds of rules that were originally written and evaluated in JavaScript, and now needed to be evaluated on the server-side, using PHP.
 
 This library has initially been used to change and configure the behavior of certain "Workflows" (without changing actual code) in an intranet application, but it may serve a purpose elsewhere.
 
 
-Find me on Twitter: @[nicoSWD](https://twitter.com/nicoSWD)
+Find me on Twitter: @[openWebX](https://twitter.com/openWebX)
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/67203389-970c-419c-9430-a7f9a005bd94/big.png)](https://insight.sensiolabs.com/projects/67203389-970c-419c-9430-a7f9a005bd94)
 
@@ -31,12 +31,12 @@ This library works best with one of these bundles below, but they're not require
 
 | Bundle   | Framework      | Packagist     |
 | -------- |  ------------- | ------------- |
-| [nicoSWD/rule-engine-bundle](https://github.com/nicoSWD/rule-engine-bundle) | Symfony | [![Latest Stable Version](https://img.shields.io/packagist/v/nicoswd/symfony-rule-engine-bundle.svg)](https://packagist.org/packages/nicoswd/symfony-rule-engine-bundle) |
+| [openWebX/rule-engine-bundle](https://github.com/openWebX/rule-engine-bundle) | Symfony | [![Latest Stable Version](https://img.shields.io/packagist/v/nicoswd/symfony-rule-engine-bundle.svg)](https://packagist.org/packages/nicoswd/symfony-rule-engine-bundle) |
 
 ## Usage
 
 ```php
-use nicoSWD\Rule\Rule;
+use openWebX\Rule\Rule;
 
 // Composer install
 require '/path/to/vendor/autoload.php';
@@ -147,7 +147,7 @@ Both will output: `Unexpected token "(" at position 25 on line 3`
 A custom syntax highlighter is also provided.
 
 ```php
-use nicoSWD\Rule;
+use openWebX\Rule;
 
 $ruleStr = '
     // This is true
@@ -232,23 +232,23 @@ Pull requests are very welcome! If they include tests, even better. This project
 
 ## License
 
-[![License](https://img.shields.io/packagist/l/nicoSWD/php-rule-parser.svg)](https://packagist.org/packages/nicoswd/php-rules-parser)
+[![License](https://img.shields.io/packagist/l/openWebX/php-rule-parser.svg)](https://packagist.org/packages/nicoswd/php-rules-parser)
 
-  [Master image]: https://travis-ci.org/nicoSWD/php-rule-parser.svg?branch=master
-  [Master]: https://github.com/nicoSWD/php-rule-parser/tree/master
-  [Master coverage image]: https://scrutinizer-ci.com/g/nicoSWD/php-rule-parser/badges/coverage.png?b=master
-  [Master coverage]: https://scrutinizer-ci.com/g/nicoSWD/php-rule-parser/?branch=master
+  [Master image]: https://travis-ci.org/openWebX/php-rule-parser.svg?branch=master
+  [Master]: https://github.com/openWebX/php-rule-parser/tree/master
+  [Master coverage image]: https://scrutinizer-ci.com/g/openWebX/php-rule-parser/badges/coverage.png?b=master
+  [Master coverage]: https://scrutinizer-ci.com/g/openWebX/php-rule-parser/?branch=master
   [Master quality image]: https://img.shields.io/scrutinizer/g/nicoswd/php-rule-parser.svg?b=master
-  [Master quality]: https://scrutinizer-ci.com/g/nicoSWD/php-rule-parser/?branch=master
-  [0.3 image]: https://travis-ci.org/nicoSWD/php-rule-parser.svg?branch=v0.3
-  [0.3]: https://github.com/nicoSWD/php-rule-parser/tree/v0.3
-  [0.3 coverage image]: https://scrutinizer-ci.com/g/nicoSWD/php-rule-parser/badges/coverage.png?b=v0.3
-  [0.3 coverage]: https://scrutinizer-ci.com/g/nicoSWD/php-rule-parser/?branch=v0.3
+  [Master quality]: https://scrutinizer-ci.com/g/openWebX/php-rule-parser/?branch=master
+  [0.3 image]: https://travis-ci.org/openWebX/php-rule-parser.svg?branch=v0.3
+  [0.3]: https://github.com/openWebX/php-rule-parser/tree/v0.3
+  [0.3 coverage image]: https://scrutinizer-ci.com/g/openWebX/php-rule-parser/badges/coverage.png?b=v0.3
+  [0.3 coverage]: https://scrutinizer-ci.com/g/openWebX/php-rule-parser/?branch=v0.3
   [0.3 quality image]: https://img.shields.io/scrutinizer/g/nicoswd/php-rule-parser.svg?b=v0.3
-  [0.3 quality]: https://scrutinizer-ci.com/g/nicoSWD/php-rule-parser/?branch=v0.3
-  [Develop image]: https://travis-ci.org/nicoSWD/php-rule-parser.svg?branch=develop
-  [Develop]: https://github.com/nicoSWD/php-rule-parser/tree/develop
-  [Develop coverage image]: https://scrutinizer-ci.com/g/nicoSWD/php-rule-parser/badges/coverage.png?b=develop
-  [Develop coverage]: https://scrutinizer-ci.com/g/nicoSWD/php-rule-parser/?branch=develop
+  [0.3 quality]: https://scrutinizer-ci.com/g/openWebX/php-rule-parser/?branch=v0.3
+  [Develop image]: https://travis-ci.org/openWebX/php-rule-parser.svg?branch=develop
+  [Develop]: https://github.com/openWebX/php-rule-parser/tree/develop
+  [Develop coverage image]: https://scrutinizer-ci.com/g/openWebX/php-rule-parser/badges/coverage.png?b=develop
+  [Develop coverage]: https://scrutinizer-ci.com/g/openWebX/php-rule-parser/?branch=develop
   [Develop quality image]: https://img.shields.io/scrutinizer/g/nicoswd/php-rule-parser.svg?b=develop
-  [Develop quality]: https://scrutinizer-ci.com/g/nicoSWD/php-rule-parser/?branch=develop
+  [Develop quality]: https://scrutinizer-ci.com/g/openWebX/php-rule-parser/?branch=develop

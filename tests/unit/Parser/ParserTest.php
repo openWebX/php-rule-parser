@@ -4,21 +4,21 @@ declare(strict_types=1);
 
 /**
  * @license     http://opensource.org/licenses/mit-license.php MIT
- * @link        https://github.com/nicoSWD
+ * @link        https://github.com/openWebX
  * @author      Nicolas Oelgart <nico@oelgart.com>
  */
-namespace nicoSWD\Rule\tests\unit\Parser;
+namespace openWebX\Rule\tests\unit\Parser;
 
 use Mockery as m;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
-use nicoSWD\Rule\TokenStream\AST;
-use nicoSWD\Rule\Compiler\CompilerFactoryInterface;
-use nicoSWD\Rule\Compiler\CompilerInterface;
-use nicoSWD\Rule\Expression\BaseExpression;
-use nicoSWD\Rule\Expression\ExpressionFactoryInterface;
-use nicoSWD\Rule\Parser\Parser;
-use nicoSWD\Rule\TokenStream\Token;
-use nicoSWD\Rule\TokenStream\TokenStream;
+use openWebX\Rule\TokenStream\AST;
+use openWebX\Rule\Compiler\CompilerFactoryInterface;
+use openWebX\Rule\Compiler\CompilerInterface;
+use openWebX\Rule\Expression\BaseExpression;
+use openWebX\Rule\Expression\ExpressionFactoryInterface;
+use openWebX\Rule\Parser\Parser;
+use openWebX\Rule\TokenStream\Token;
+use openWebX\Rule\TokenStream\TokenStream;
 use PHPUnit\Framework\TestCase;
 
 class ParserTest extends TestCase
